@@ -888,7 +888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cfb11abdcfcfbf4ba46c6902ee0f1c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hurt: {fileID: 0}
+  hurt: {fileID: 5978512877740843106, guid: a64e4eb3deaa0d94fb168c2d0d5dc631, type: 3}
 --- !u!65 &1617076151143768313
 BoxCollider:
   m_ObjectHideFlags: 0

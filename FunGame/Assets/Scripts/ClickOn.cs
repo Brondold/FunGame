@@ -9,8 +9,7 @@ public class ClickOn : MonoBehaviour
 
     private void OnMouseDown()
     {
-        gameObject.GetComponent<AudioSource>().Play();
-
+        //gameObject.GetComponent<AudioSource>().Play();
         Destroy(gameObject);
     }
 }
