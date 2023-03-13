@@ -5,10 +5,11 @@ using UnityEngine;
 public class ClickOn : MonoBehaviour
 {
 
-    public AudioSource hurt;
+    public AudioClip hurt;
 
     private void OnMouseDown()
     {
+        AudioSource.PlayClipAtPoint(hurt, transform.position);
         //gameObject.GetComponent<AudioSource>().Play();
         Destroy(gameObject);
     }
